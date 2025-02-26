@@ -2,5 +2,6 @@
 	import '../app.css';
 	let { children } = $props();
 </script>
-
-{@render children()}
+<div style="padding: 20px; margin: 0;">
+	{@render children()}
+</div>

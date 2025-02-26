@@ -7,7 +7,7 @@ const config = {
 	// for more information about preprocessors
 	alias: {
 		'@/*': './src/*',
-		'$/*': './src/*'
+		'$*': './src/*'
 	},
 	preprocess: vitePreprocess(),
 

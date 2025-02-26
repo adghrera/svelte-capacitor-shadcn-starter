@@ -1,3 +1,7 @@
+# About this project
+
+A cross-platform starter project built with Svelte, Capacitor and shadcn. 
+
 # sv
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).

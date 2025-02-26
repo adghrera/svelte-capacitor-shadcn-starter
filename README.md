@@ -36,3 +36,62 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+
+## Build application
+
+```bash
+npm run build
+```
+
+
+## Add android app build
+
+```bash
+npx cap add android
+```
+
+
+## Sync web and android build
+
+```bash
+npx cap sync
+```
+
+
+## Start android app in emulator
+
+```bash
+npx cap run android
+```
+
+
+## Copy web app build to android
+
+```bash
+npx cap copy
+```
+
+
+## Run web app
+
+```bash
+npm run dev
+```
+
+## Web app
+
+http://localhost:3000/
+
+
+## Local server config in capacitor.config.ts
+
+server: { url: 'http://192.168.1.242:3000', cleartext: true }
+
+## Local Server config in vite.config.ts
+
+server: { host: '0.0.0.0', port: 3000 },
+
+## Add a shadcn component
+
+npx shadcn-svelte@latest add button
